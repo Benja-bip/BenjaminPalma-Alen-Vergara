@@ -1,0 +1,13 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #f5f7fb; }
+.container { max-width: 900px; margin: 24px auto; padding: 16px; background: white; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px }
+table { width:100%; border-collapse: collapse }
+th, td { padding: 8px 10px; border-bottom: 1px solid #eee }
+button { margin-left: 6px }
+.auth { max-width: 360px; margin: 80px auto; padding: 20px; background: white; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06) }
+.auth form div { margin-bottom: 10px }
+.error { color: #a00 }
+.modal { position: fixed; left: 0; top: 0; right:0; bottom:0; display:flex; align-items:center; justify-content:center; background: rgba(0,0,0,0.3) }
+.form { background:white; padding:16px; border-radius:6px; width: 360px }
+.form div { margin-bottom:10px }
+.actions { display:flex; justify-content:flex-end }
